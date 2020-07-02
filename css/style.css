@@ -31,6 +31,7 @@ ECECEC */
 .site-nav .nav-item:focus { color: var(--accent-colour)}
 .site-nav .nav-item:active { color: red;}
 .contacts .contacts-item {color: var(--primary-text-colour);}
+.site-nav .nav-item-current {color: var(--accent-colour);}
 .contacts .contacts-item:hover,
 .contacts .contacts-item:focus { color: var(--accent-colour)}
 /* site-advantages */
