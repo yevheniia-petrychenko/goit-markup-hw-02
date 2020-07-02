@@ -1,3 +1,13 @@
+:root {
+    --accent-colour: #2196F3;
+    --title-text-colour: #212121;
+    --background-colour: #ffffff;
+    --primary-text-colour: #757575;
+    --icons-colour: #AFB1B8;
+    --transparent-background: rgba(47, 48, 58, 0.8);
+    --logo-color: #000000;
+}
+
 ul {
     list-style: none;
 }
@@ -9,17 +19,26 @@ AFB1B8 grey
 212121 black
 757575 grey
 F5F4FA white&
-2F303A 0.8 black
+background: rgba(47, 48, 58, 0.8)
 000000
 ECECEC */
 
-
-.page-header {background-color: #ffffff;}
-.site-nav .nav-item {color: #212121;}
+/* site-header */
+.page-header {background-color: var(--background-colour);}
+.logo {color: var(--logo-color)}
+.site-nav .nav-item {color: var(--title-text-colour);}
 .site-nav .nav-item:hover,
-.site-nav .nav-item:focus { color: #2196F3}
+.site-nav .nav-item:focus { color: var(--accent-colour)}
 .site-nav .nav-item:active { color: red;}
-.contacts .contacts-item {color: #757575;}
+.contacts .contacts-item {color: var(--primary-text-colour);}
 .contacts .contacts-item:hover,
-.contacts .contacts-item:focus { color: #2196F3}
-.advantages-item:hover {color: #2196F3}
+.contacts .contacts-item:focus { color: var(--accent-colour)}
+/* site-advantages */
+.advantages-item:hover {color: var(--accent-colour)}
+.section title {color: var(--title-text-colour);}
+.advantades .title {color: var(--title-text-colour);}
+/* button */
+.button {
+    color: var(--background-colour);
+    background-color: var(--accent-colour);
+}
