@@ -2,7 +2,7 @@ ul {
     list-style: none;
 }
 
-\--2196F3--\ blue
+/* \--2196F3--\ blue
 FFFFFF white
 background: #2F303A;
 AFB1B8 grey
@@ -11,4 +11,15 @@ AFB1B8 grey
 F5F4FA white&
 2F303A 0.8 black
 000000
-ECECEC
+ECECEC */
+
+
+.page-header {background-color: #ffffff;}
+.site-nav .nav-item {color: #212121;}
+.site-nav .nav-item:hover,
+.site-nav .nav-item:focus { color: #2196F3}
+.site-nav .nav-item:active { color: red;}
+.contacts .contacts-item {color: #757575;}
+.contacts .contacts-item:hover,
+.contacts .contacts-item:focus { color: #2196F3}
+.advantages-item:hover {color: #2196F3}
