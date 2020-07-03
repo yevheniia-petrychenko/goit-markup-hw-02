@@ -12,6 +12,10 @@
 ul {
     list-style: none;
 }
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--background-colour);
+}
 
 /* \--2196F3--\ blue
 FFFFFF white
@@ -26,28 +30,104 @@ ECECEC */
 
 /* site-header */
 .page-header {background-color: var(--background-colour);}
-.logo {color: var(--logo-color)}
-.site-nav .nav-item {color: var(--title-text-colour);}
+.logo {
+    color: var(--logo-color);
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.logo .accent {color: var(--accent-colour);}
+.site-nav .nav-item {
+    color: var(--title-text-colour);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .site-nav .nav-item:hover,
 .site-nav .nav-item:focus { color: var(--accent-colour)}
 .site-nav .nav-item:active { color: red;}
-.contacts .contacts-item {color: var(--primary-text-colour);}
+.contacts .contacts-item {
+    color: var(--primary-text-colour);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .site-nav .nav-item-current {color: var(--accent-colour);}
 .contacts .contacts-item:hover,
 .contacts .contacts-item:focus { color: var(--accent-colour)}
-/* site-advantages */
-.advantages-item:hover {color: var(--accent-colour)}
-.section title {color: var(--title-text-colour);}
-.advantades .title {color: var(--title-text-colour);}
+/* block hero */
+.hero .hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1,36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--background-colour);
+background-color: var(--transparent-background);
+}
+
+
 /* button */
 .button {
     color: var(--background-colour);
     background-color: var(--accent-colour);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
 }
+/* site-advantages */
+.advantages-item:hover {color: var(--accent-colour)}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-colour);
+}
+.advantages .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-colour);
+}
+.advantages .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-colour);
+}
+/* what-we-are-doing */
+.title-activities {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-colour);
+    background-color: var(--transparent-background);
+}
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.section {letter-spacing: 0.03em;}
 /* styles for portfolio */
 input[type="button1"] {
     color: var(--title-text-colour);
     background-color: var(--background-button-color);
+    font-family: inherit;
     
 input[type="button1"]:hover,
 input[type="button1"]:focus {
