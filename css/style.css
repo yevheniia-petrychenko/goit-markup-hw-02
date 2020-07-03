@@ -6,6 +6,7 @@
     --icons-colour: #AFB1B8;
     --transparent-background: rgba(47, 48, 58, 0.8);
     --logo-color: #000000;
+    --background-button-color: #757575;
 }
 
 ul {
@@ -18,7 +19,7 @@ background: #2F303A;
 AFB1B8 grey
 212121 black
 757575 grey
-F5F4FA white&
+input[type="text"] white&
 background: rgba(47, 48, 58, 0.8)
 000000
 ECECEC */
@@ -43,3 +44,14 @@ ECECEC */
     color: var(--background-colour);
     background-color: var(--accent-colour);
 }
+/* styles for portfolio */
+input[type="button1"] {
+    color: var(--title-text-colour);
+    background-color: var(--background-button-color);
+    
+input[type="button1"]:hover,
+input[type="button1"]:focus {
+    background-color: var(-);
+    color: var(-);
+}
+
