@@ -133,12 +133,23 @@ background-color: var(--transparent-background);
     color: var(--background-colour);
     background-color: var(--transparent-background);
 }
+/* our-team */
+.team .team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--title-text-colour);
+}
+.team .team-member-title {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--primary-text-colour);
+}
 /* footer */
 .footer {
  background-color:#2F303A ; 
-}
-.footer-adress {
-    list-style: none;
 }
 .footer-adress .adress {
 font-size: 14px;
