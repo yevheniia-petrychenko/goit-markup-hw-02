@@ -15,6 +15,8 @@ ul {
 body {
     font-family: Roboto, sans-serif;
     background-color: var(--background-colour);
+    letter-spacing: 0.03em;
+    font-weight: 400;
 }
 
 /* \--2196F3--\ blue
@@ -33,7 +35,6 @@ ECECEC */
 .logo {
     color: var(--logo-color);
     font-family: Raleway, sans-serif;
-    letter-spacing: 0.03em;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
@@ -75,7 +76,7 @@ background-color: var(--transparent-background);
 
 
 /* button */
-.button {
+.modal-button {
     color: var(--background-colour);
     background-color: var(--accent-colour);
     font-family: inherit;
@@ -83,6 +84,23 @@ background-color: var(--transparent-background);
     font-size: 16px;
     line-height: 1.87;
 }
+
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.button1:hover
+.button1:focus {
+    background-color: var(--accent-colour);
+    color: var(--background-colour);
+}
+
 /* site-advantages */
 .advantages-item:hover {color: var(--accent-colour)}
 .section-title {
@@ -90,14 +108,12 @@ background-color: var(--transparent-background);
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-text-colour);
 }
 .advantages .title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-colour);
 }
@@ -105,7 +121,6 @@ background-color: var(--transparent-background);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--primary-text-colour);
 }
 /* what-we-are-doing */
@@ -114,26 +129,44 @@ background-color: var(--transparent-background);
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--background-colour);
     background-color: var(--transparent-background);
 }
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+/* footer */
+.footer {
+ background-color:#2F303A ; 
 }
-.section {letter-spacing: 0.03em;}
-/* styles for portfolio */
-input[type="button1"] {
-    color: var(--title-text-colour);
-    background-color: var(--background-button-color);
-    font-family: inherit;
-    
-input[type="button1"]:hover,
-input[type="button1"]:focus {
-    background-color: var(-);
-    color: var(-);
+.footer-adress {
+    list-style: none;
+}
+.footer-adress .adress {
+font-size: 14px;
+line-height: 1.71;
+color: var(--background-colour)
+}
+.footer-adress .contacts {
+font-size: 14px;
+line-height: 1.71;
+color: rgba(255, 255, 255, 0.6);
 }
 
+
+/* styles for portfolio */
+.projects .project-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--title-text-colour);
+}
+.projects .project-item {
+font-size: 16px;
+line-height: 1.87;
+color: var(--background-button-color);
+}
+.projects .project-text {
+font-size: 18px;
+line-height: 1.56;
+color: var(--icons-colour);
+}
