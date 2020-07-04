@@ -17,21 +17,14 @@ body {
     background-color: var(--background-colour);
     letter-spacing: 0.03em;
     font-weight: 400;
+    font-size: 14px;
 }
 
-/* \--2196F3--\ blue
-FFFFFF white
-background: #2F303A;
-AFB1B8 grey
-212121 black
-757575 grey
-input[type="text"] white&
-background: rgba(47, 48, 58, 0.8)
-000000
-ECECEC */
 
 /* site-header */
-.page-header {background-color: var(--background-colour);}
+.page-header {
+    background-color: var(--background-colour);
+}
 .logo {
     color: var(--logo-color);
     font-family: Raleway, sans-serif;
@@ -39,29 +32,37 @@ ECECEC */
     font-size: 26px;
     line-height: 1.2;
 }
-.logo .accent {color: var(--accent-colour);}
+.logo .accent {
+    color: var(--accent-colour);
+}
+
 .site-nav .nav-item {
     color: var(--title-text-colour);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
 .site-nav .nav-item:hover,
 .site-nav .nav-item:focus { color: var(--accent-colour)}
-.site-nav .nav-item:active { color: red;}
+
 .contacts .contacts-item {
     color: var(--primary-text-colour);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.site-nav .nav-item-current {color: var(--accent-colour);}
+.site-nav .nav-item-current {
+    color: var(--accent-colour);
+}
+
 .contacts .contacts-item:hover,
-.contacts .contacts-item:focus { color: var(--accent-colour)}
+.contacts .contacts-item:focus { 
+    color: var(--accent-colour)
+}
+
 /* block hero */
 .hero .hero-title {
 font-weight: 900;
@@ -74,7 +75,6 @@ color: var(--background-colour);
 background-color: var(--transparent-background);
 }
 
-
 /* button */
 .modal-button {
     color: var(--background-colour);
@@ -85,24 +85,10 @@ background-color: var(--transparent-background);
     line-height: 1.87;
 }
 
-.button {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    color: #212121;
-    background-color: #F5F4FA;
-}
-
-.button1:hover
-.button1:focus {
-    background-color: var(--accent-colour);
-    color: var(--background-colour);
-}
-
 /* site-advantages */
-.advantages-item:hover {color: var(--accent-colour)}
+.advantages-item:hover {
+    color: var(--accent-colour)
+}
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -112,27 +98,26 @@ background-color: var(--transparent-background);
 }
 .advantages .title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-colour);
 }
 .advantages .text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     color: var(--primary-text-colour);
 }
+
 /* what-we-are-doing */
 .title-activities {
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
     color: var(--background-colour);
     background-color: var(--transparent-background);
 }
+
 /* our-team */
 .team .team-member {
     font-weight: 500;
@@ -147,23 +132,49 @@ background-color: var(--transparent-background);
     text-align: center;
     color: var(--primary-text-colour);
 }
+
 /* footer */
 .footer {
  background-color:#2F303A ; 
 }
+
 .footer-adress .adress {
-font-size: 14px;
-line-height: 1.71;
-color: var(--background-colour)
-}
-.footer-adress .contacts {
-font-size: 14px;
-line-height: 1.71;
-color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    color: var(--background-colour)
+    text-decoration: none
 }
 
+.footer-adress .contacts {
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none
+}
+
+.footer .appeal {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--background-colour);
+}
 
 /* styles for portfolio */
+/* button */
+.button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.button1:hover
+.button1:focus {
+    background-color: var(--accent-colour);
+    color: var(--background-colour);
+}
+
+
 .projects .project-title {
 font-weight: 700;
 font-size: 18px;
