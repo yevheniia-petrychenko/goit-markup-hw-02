@@ -36,16 +36,19 @@ body {
     color: var(--accent-colour);
 }
 
+
 .site-nav .nav-item {
     color: var(--title-text-colour);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    list-style: none;
 }
 
 .site-nav .nav-item:hover,
-.site-nav .nav-item:focus { color: var(--accent-colour)}
+.site-nav .nav-item:focus {
+     color: var(--accent-colour)
+    }
 
 .contacts .contacts-item {
     color: var(--primary-text-colour);
@@ -87,7 +90,7 @@ background-color: var(--transparent-background);
 
 /* site-advantages */
 .advantages-item:hover {
-    color: var(--accent-colour)
+    color: var(--accent-colour);
 }
 .section-title {
     font-weight: 700;
@@ -140,14 +143,14 @@ background-color: var(--transparent-background);
 
 .footer-adress .adress {
     line-height: 1.71;
-    color: var(--background-colour)
-    text-decoration: none
+    color: var(--background-colour);
+    font-style: normal;
 }
 
 .footer-adress .contacts {
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none
+    font-style: normal;
 }
 
 .footer .appeal {
@@ -168,8 +171,8 @@ background-color: var(--transparent-background);
     color: #212121;
     background-color: #F5F4FA;
 }
-.button1:hover
-.button1:focus {
+.button:hover,
+.button:focus {
     background-color: var(--accent-colour);
     color: var(--background-colour);
 }
