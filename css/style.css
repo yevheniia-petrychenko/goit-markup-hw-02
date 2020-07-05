@@ -31,6 +31,7 @@ body {
     font-weight: bold;
     font-size: 26px;
     line-height: 1.2;
+    text-decoration: none;
 }
 .logo .accent {
     color: var(--accent-colour);
@@ -43,6 +44,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     list-style: none;
+    text-decoration: none;
 }
 
 .site-nav .nav-item:hover,
@@ -145,12 +147,14 @@ background-color: var(--transparent-background);
     line-height: 1.71;
     color: var(--background-colour);
     font-style: normal;
+    text-decoration: none;
 }
 
 .footer-adress .contacts {
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    text-decoration: none;
 }
 
 .footer .appeal {
@@ -177,7 +181,7 @@ background-color: var(--transparent-background);
     color: var(--background-colour);
 }
 
-
+/* our projects */
 .projects .project-title {
 font-weight: 700;
 font-size: 18px;
