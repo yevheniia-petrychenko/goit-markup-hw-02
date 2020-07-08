@@ -1,3 +1,4 @@
+
 :root {
     --accent-colour: #2196F3;
     --title-text-colour: #212121;
@@ -8,6 +9,15 @@
     --logo-color: #000000;
     --background-button-color: #757575;
 }
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 
 ul {
     list-style: none;
@@ -22,6 +32,12 @@ body {
 
 
 /* site-header */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    outline: 2px solid tomato;
+}
 .page-header {
     background-color: var(--background-colour);
 }
@@ -52,6 +68,10 @@ body {
      color: var(--accent-colour)
     }
 
+.contacts, .site-nav {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
 .contacts .contacts-item {
     color: var(--primary-text-colour);
     font-weight: 500;
@@ -61,6 +81,7 @@ body {
 }
 .site-nav .nav-item-current {
     color: var(--accent-colour);
+    text-decoration:none;
 }
 
 .contacts .contacts-item:hover,
@@ -69,15 +90,19 @@ body {
 }
 
 /* block hero */
+.hero {
+    text-align: center;
+}
 .hero .hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--background-colour);
 background-color: var(--transparent-background);
+margin-top: 0px;
+margin-bottom: 30px;
 }
 
 /* button */
@@ -88,9 +113,17 @@ background-color: var(--transparent-background);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 136px;
+    text-align: center;
+    border: 1px solid transparent;
 }
 
 /* site-advantages */
+.advantages {
+    margin: 0px 0px;
+}
 .advantages-item:hover {
     color: var(--accent-colour);
 }
@@ -100,27 +133,38 @@ background-color: var(--transparent-background);
     line-height: 1.16;
     text-align: center;
     color: var(--title-text-colour);
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
 .advantages .title {
     font-weight: 700;
+    font-size: inherit;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-colour);
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 .advantages .text {
     font-weight: 400;
     line-height: 1.7;
     color: var(--primary-text-colour);
+    margin: 0px 0px;
 }
 
 /* what-we-are-doing */
+.list-activities {
+    margin: 0px 0px;
+}
 .title-activities {
     font-weight: 700;
+    font-size: inherit;
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
     color: var(--background-colour);
     background-color: var(--transparent-background);
+    margin: 0px 0px;
 }
 
 /* our-team */
@@ -164,9 +208,9 @@ background-color: var(--transparent-background);
     color: var(--background-colour);
 }
 
-/* styles for portfolio */
+/* styles for portfolio */      
 /* button */
-.button {
+  .button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -174,6 +218,10 @@ background-color: var(--transparent-background);
     text-align: center;
     color: #212121;
     background-color: #F5F4FA;
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 73px;
+    border: 1px solid transparent;
 }
 .button:hover,
 .button:focus {
@@ -182,20 +230,26 @@ background-color: var(--transparent-background);
 }
 
 /* our projects */
+.projects {
+    text-decoration: none;
+}
 .projects .project-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
 color: var(--title-text-colour);
+text-decoration: none;
 }
 .projects .project-item {
 font-size: 16px;
 line-height: 1.87;
 color: var(--background-button-color);
+text-decoration: none;
 }
 .projects .project-text {
 font-size: 18px;
 line-height: 1.56;
 color: var(--icons-colour);
+text-decoration: none;
 }
