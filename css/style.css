@@ -61,6 +61,7 @@ body {
 }
 .site-nav .nav-item-current {
     color: var(--accent-colour);
+    text-decoration: none;
 }
 
 .contacts .contacts-item:hover,
@@ -103,6 +104,7 @@ background-color: var(--transparent-background);
 }
 .advantages .title {
     font-weight: 700;
+    font-family: inherit;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-colour);
@@ -116,6 +118,7 @@ background-color: var(--transparent-background);
 /* what-we-are-doing */
 .title-activities {
     font-weight: 700;
+    font-family: inherit;
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
